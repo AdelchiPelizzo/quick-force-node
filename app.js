@@ -1,9 +1,9 @@
-var express = require('express');
-var path = require('path');
-var nforce = require('nforce');
-var hbs = require('hbs');
+const express = require('express');
+const path = require('path');
+const nforce = require('nforce');
+const hbs = require('hbs');
 
-var app = express();
+const app = express();
 
 app.set('view engine', 'hbs');
 app.enable('trust proxy');
